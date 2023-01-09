@@ -1,0 +1,24 @@
+.loader{
+    background-color:orange;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items:center;
+    text-align: center;
+    text-align: center;
+    position: fixed;
+    top: 200px;
+    left:140px;
+}
+.loader .button{
+    position: relative;
+    left: 50px;
+    animation:loading 3s infinite;
+}
+@keyframes loading{
+    .button1{
+        0%{
+            transition: scale (10px); 
+        }
+    }
+}

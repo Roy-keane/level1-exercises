@@ -1,0 +1,108 @@
+body ,html{
+ padding: 0px;
+ margin: 0px;
+ width: 100%;
+ height: 100vh;
+ font-family: sans-serif;
+
+
+}
+.section-container   .content h1 {
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color:#000000fa;
+    padding: 20px;
+    opacity:0,7 ;
+}
+.section-container {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position:relative;
+    background-image: url('./assets/images/image-5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+     backdrop-filter: blur(1);  
+       text-align: center;
+    justify-content: center;
+    align-items: center;
+} 
+
+.content h1{
+    position:absolute;
+    top:30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+.content h1 span
+{
+    color: rgba(5, 5, 5, 0.988);
+}
+
+div.logo img{
+ position: absolute;
+left: 1px; 
+top: 1px;
+height: 200px;
+width: 230px;
+border-radius:40%; 
+opacity:0.9;  
+
+}
+
+
+
+
+
+ .content p{ 
+    margin-top: 800px; 
+   width:100%;
+    color:#388f8f	;
+    padding-left:0px;
+    padding-right: 280px;
+    font-size: 20px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    line-height: 45px
+    ;background-image:rgba(219, 57, 57, 0.571) ;
+
+}
+div.logo a{
+    position:absolute;
+    top:83%;
+    left:40%; 
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bold;
+    text-transform: uppercase; 
+    color:rgba(255, 0, 72, 0.865);
+    width: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    
+}
+  p.paragraph{
+    background-color: rgba(209, 220, 230, 0.699);
+    padding: 15px;
+    /* position: absolute; */
+    top: 65%;
+  }
+  div.logo a:hover{
+    color: rgb(157, 16, 227);
+    background-color: aqua;
+  }
+
+

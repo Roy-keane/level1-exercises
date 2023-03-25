@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background-image: url('./asset/images/locat.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 89vh;
+ }
+.navbar
+{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color:#03622fc6;
+    font-size: 35px;
+    font-family: arial;
+    padding-left: 20px;
+    padding-top: 10px;
+    float: left;
+    text-transform: capitalize;
+}
+.logo span{
+    color:#ff7200
+}
+.menu{
+    width: 600px;
+    float: left;
+    height: 70px;
+}
+.menu ul{
+    float: left;
+    display: flex;
+    justify-content: space-evenly;
+
+}  
+ ul li{
+    list-style: none;
+    margin-left: 200px; 
+    margin-top: 27px;
+    font-size: 14px;
+}
+.menu ul li a{
+    text-decoration:none;
+    color: aqua;
+    font-family: arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    background-color: rgb(229, 110, 238);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.menu ul li a:hover{
+   background-color: black; 
+color:rgb(255, 42, 0)
+}
+.content{
+    width: 1200px;
+    height: auto;
+    /* color: rgb(216, 16, 123); */
+     position: relative;
+}
+.content h1{
+    color: rgb(216, 16, 123);
+}
+.content p{
+    width: 70%;
+    margin-top: 15px;
+    font-size: 200%;
+    padding-left: 7.5px;
+    padding-bottom: 25px;
+    font-family:arial;
+    letter-spacing: 1.2px;
+    line-height: 40px;
+    font-weight: bold;
+    color:#ff7200;margin-left: 15px;
+}
+
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 8px;
+}
+.form{
+    margin-top: 90px;
+    width: 250px;
+    height: 400px;
+    background: linear-gradient(to top ,rgba(198, 165, 165, 0.8)50%,rgba(198, 165, 165, 0.8)50%);
+    position: absolute;
+    top: -10px;
+    left: 940px;
+    border-radius: 20px;
+    padding: 25px;
+}
+.form h2{
+   width: 220px;
+   font-size: 22px;
+   text-align: center;
+   color: #ff7200;
+   font-family: sans-serif;
+   background-color: #fff;
+   border-radius: 10px;
+   margin: 2px;
+   padding: 8px;
+}
+ .form label{
+ color:#414341a3;
+ font-weight: bold;
+ font-style: 20px;
+ font-family: Arial, Helvetica, sans-serif;
+ }
+.form input {
+    width: 240px;
+    height: 25px;
+    border-style: none;
+    border-radius: 20px;
+    
+
+}
+.form select.form-action{
+    width: 220;
+    height: 22px;
+}
